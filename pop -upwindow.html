@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        var one =()=>{
+            alert("Hi, Your email sent sucessfully !");
+        }
+
+        var two=()=>{
+
+           var input = confirm("are you sure?");//ok-true cancle- false
+           alert(input);
+
+        }
+        var three=()=>{
+            var email = prompt("Enter Your Email ID");
+            alert("We have sent Download Link to \n" + email);
+
+        }
+    </script>
+</head>
+<body>
+    <h1>
+        Java Script Type popup window
+    </h1>
+    <button onclick="one()">Alert - Click Me</button>
+    <button onclick="two()">Confirm - Delete Record</button>
+    <button onclick="three()">Promt - Download file</button>
+</body>
+</html>
